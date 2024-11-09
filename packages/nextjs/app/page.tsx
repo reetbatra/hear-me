@@ -22,9 +22,9 @@ const Home: NextPage = () => {
             <Address address={connectedAddress} />
           </div>
           <p className="text-center text-lg">
-            Get started by editing{" "}
+            Your trusted circle,{" "}
             <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              packages/nextjs/app/page.tsx
+              always within reach
             </code>
           </p>
           <p className="text-center text-lg">
