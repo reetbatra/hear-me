@@ -17,10 +17,12 @@ const Home: NextPage = () => {
             <span className="block text-2xl mb-2">Welcome to</span>
             <span className="block text-4xl font-bold">Hear Me</span>
           </h1>
+
           <div className="flex justify-center items-center space-x-2 flex-col sm:flex-row">
             <p className="my-2 font-medium">Connected Address:</p>
             <Address address={connectedAddress} />
           </div>
+
           <p className="text-center text-lg">
             Your trusted circle,{" "}
             <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
@@ -28,15 +30,13 @@ const Home: NextPage = () => {
             </code>
           </p>
           <p className="text-center text-lg">
-            Edit your smart contract{" "}
+            Press the HELP button to instantly alert your trusted circle.{" "}
             <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              YourContract.sol
+              Your safety is our priority.
             </code>{" "}
-            in{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              packages/hardhat/contracts
-            </code>
+            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block"></code>
           </p>
+          <button className=" text-center text-lg btn btn-error">HELP</button>
         </div>
 
         <div className="flex-grow bg-base-300 w-full mt-16 px-8 py-12">
